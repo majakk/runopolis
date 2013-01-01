@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#101255">
+    <TextView
+	    android:id="@+id/menu_text"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#202488"
+	    android:clickable="false"
+	    android:gravity="center"
+	    android:lines="1"
+	    android:padding="6dp"
+	    android:text="Cash: $100"
+	    android:textColor="#FFFFFF"
+	    android:textSize="18dp"
+	    android:textStyle="bold">
+	</TextView>
+	<TableLayout
+		android:id="@+id/menubar"
+		android:layout_width="fill_parent"
+		android:layout_height="2dip"
+		android:layout_below="@+id/menu_text"
+		android:background="#999999">
+	</TableLayout>
+	<LinearLayout
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:padding="24dp" >
+
+	    <LinearLayout
+	        android:id="@+id/linearLayout2"	        
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#DDDDDD"
+	        android:orientation="vertical"
+	        android:padding="8dp" >
+
+	        <LinearLayout
+		        android:id="@+id/linearLayout3"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="#44AA88"
+		        android:orientation="vertical"
+		        android:padding="8dp"
+		        android:gravity="center_horizontal">
+		        <TextView
+		            android:id="@+id/textView1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"		            
+		            android:padding="4dp"
+		            android:text="Norrmalmstorg"
+		            android:textColor="#000000"
+		            android:textStyle="bold" 
+		            android:textSize="16dp"/>
+		        <TextView
+		            android:id="@+id/textView2"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"		            
+		            android:padding="2dp"
+		            android:text="Stockholm"
+		            android:textColor="#000000" />
+	        </LinearLayout>
+	        <TableLayout
+	             android:id="@+id/TableLayout1"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content">
+		         <TableRow 
+		             android:layout_width="wrap_content"
+	             	 android:layout_height="wrap_content">
+	             	 <TextView 
+	             	    android:id="@+id/textHolder1"
+	             	    android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="" 
+			            android:textColor="#000000"/>
+			         <TextView
+			            android:id="@+id/textHolder2"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="" 
+			            android:textColor="#000000"/>
+			     </TableRow>
+			     <TableRow 
+		             android:layout_width="wrap_content"
+	             	 android:layout_height="wrap_content">
+			         <TextView
+			            android:id="@+id/textHolder3"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Landlord: "			           
+			            android:textColor="#000000"/>
+			         <TextView
+			            android:id="@+id/textView3"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Anonomous"
+			            android:textStyle="bold"
+			            android:textColor="#000000"/>			          
+			     </TableRow>
+			     <TableRow 
+		             android:layout_width="wrap_content"
+	             	 android:layout_height="wrap_content">
+			         <TextView
+			            android:id="@+id/textHolder4"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Area Value: " 
+			            android:textColor="#000000"/>
+			         <TextView
+			            android:id="@+id/textView4"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="$1000" 
+			            android:textColor="#000000"/>			          
+			     </TableRow>
+			     <TableRow 
+		             android:layout_width="wrap_content"
+	             	 android:layout_height="wrap_content">
+			         <TextView
+			            android:id="@+id/textHolder5"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="Tread Tax: " 
+			            android:textColor="#000000"/>
+			         <TextView
+			            android:id="@+id/textView5"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="$10 (No buildings)" 
+			            android:textColor="#000000"/>			         
+			     </TableRow>
+			     <TableRow 
+		             android:layout_width="wrap_content"
+	             	 android:layout_height="wrap_content">
+			         <TextView
+			            android:id="@+id/textHolder6"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="House Prise: " 
+			            android:textColor="#000000"/>
+			         <TextView
+			            android:id="@+id/textView6"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="$4000"
+			            android:textColor="#000000"/>			         
+			     </TableRow>
+			</TableLayout>
+	        <TableLayout
+	             android:id="@+id/TableLayout2"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"	             
+	              >
+		        <TableRow 
+		            android:layout_width="wrap_content"
+	             	android:layout_height="wrap_content"		             		            
+		            >
+
+	             <ImageView
+	                 android:id="@+id/imageView1"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"	             
+	                 android:padding="2dp"	               
+	                 android:layout_weight="1"
+	                 android:src="@drawable/house1" />
+	             <ImageView
+	                 android:id="@+id/imageView2"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:padding="2dp"	                
+	                 android:layout_weight="1"
+	                 android:src="@drawable/house2" />
+	             <ImageView
+	                 android:id="@+id/imageView3"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:padding="2dp"	              
+	                 android:layout_weight="1"
+	                 android:src="@drawable/house3" />
+	             <ImageView
+	                 android:id="@+id/imageView4"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:padding="2dp"	               
+	                 android:layout_weight="1"
+	                 android:src="@drawable/house4" />
+	             <ImageView
+	                 android:id="@+id/imageView5"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:padding="2dp"	               
+	                 android:layout_weight="1"
+	                 android:src="@drawable/house5" />
+				</TableRow>
+	         </TableLayout>
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:id="@+id/linearLayout5"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp" >
+	        <Button
+	            android:id="@+id/button1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.1"
+	            android:text="Buy Street" />
+	        <Button
+	            android:id="@+id/button2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.1"
+	            android:text="Buy House" />
+	    </LinearLayout>
+	    
+	</LinearLayout>
+	 <TextView
+        android:id="@+id/debugtext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="10dp"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

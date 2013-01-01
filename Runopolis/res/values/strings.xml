@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Runopoly</string>
+	
+    <string name="about">\n
+    Runopoly\n
+    by Studio Coldstream
+    \n\n
+    Please send comments or report bugs to:
+    \n
+	studio.coldstream@gmail.com\n
+	\n
+	\n
+	\n
+	Support a Developer:
+    </string>
+    
+    <string name="cash_text">Cash</string>
+</resources>

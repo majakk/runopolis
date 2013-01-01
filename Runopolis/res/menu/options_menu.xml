@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/settings"
+          android:icon="@android:drawable/ic_menu_preferences"          
+          android:title="Settings" />
+    <item android:id="@+id/listcards"
+          android:icon="@android:drawable/ic_menu_myplaces"
+          android:title="My Areas" />
+    <item android:id="@+id/refresh"
+          android:icon="@android:drawable/stat_notify_sync"
+          android:title="Refresh" />    
+    <item android:id="@+id/about"
+          android:icon="@android:drawable/ic_menu_info_details"          
+          android:title="About" />
+    <item android:id="@+id/statistics"
+          android:icon="@android:drawable/ic_menu_sort_by_size"          
+          android:title="Statistics" />
+    <item android:id="@+id/logout"
+          android:icon="@android:drawable/ic_lock_power_off"
+          android:title="Logout" />
+   
+</menu>
